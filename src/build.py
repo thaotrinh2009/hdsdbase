@@ -316,7 +316,6 @@ def main():
         '{{P:siss}}': h3lead(P['t_iss'], (('Gõ triệu chứng (không cần dấu), lọc theo vai trò, bấm để mở cách xử lý kèm ảnh.', 'Type the symptom, filter by role, open for the fix with a screenshot.'))),
         '{{P:ssetup}}': h3lead(P['t_setup'], P['l_setup']),
         '{{P:footer}}': LP(P['footer']), '{{P:h1}}': LP(P['h1']), '{{P:title}}': P['title'][0],
-        '{{logohtml}}': '<b style="color:#0b6b3a;font-size:15px;letter-spacing:.06em">TRAPHACO</b>',
         '{{app}}': P['app'],
     }
     R['{{hero}}'] = hero()

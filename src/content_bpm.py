@@ -8,13 +8,13 @@ ES = 'https://esign.base.com.vn'
 
 PAGE = dict(
     app='bpm', client='Traphaco',
-    title=('HDSD BPM · Phiếu có trình ký · Traphaco', ''),
+    title=('HDSD BPM · Phiếu có trình ký', ''),
     h1=('Hướng dẫn BPM · Trình ký trong quy trình', 'BPM guide · Signing inside a flow'),
     eyebrow=('HƯỚNG DẪN SỬ DỤNG · BPM', 'USER GUIDE · BPM'),
     hero_h=('Phiếu đi tới bước ký, <em>KÝ XONG TỰ CHẠY TIẾP</em>', 'The job reaches signing and <em>MOVES ON ONCE SIGNED</em>'),
     hero_lead=('6 bước, 4 vai trò: <b>người lập phiếu</b> tạo công việc và bấm Trình ký, <b>người ký</b> ký ngay trong BPM, khối <b>Kết quả ký</b> chờ chữ ký rồi rẽ nhánh Đã ký / Từ chối, <b>quản trị</b> dựng Liên kết Yêu cầu ký và luồng.',
                '6 steps, 4 roles: <b>requesters</b> create the job and click Trình ký, <b>signers</b> sign inside BPM, the <b>Kết quả ký</b> block waits and branches Signed / Declined, <b>admins</b> build the signing link and flow.'),
-    hero_img='bpm_cv_chokyketqua', hero_float=('Traphaco · bpm.base.com.vn · 14/11/2026', 'Traphaco · bpm.base.com.vn · 14 Nov 2026'),
+    hero_img='bpm_cv_chokyketqua', hero_float=('bpm.base.com.vn · 14/11/2026', 'bpm.base.com.vn · 14 Nov 2026'),
     kpi=[('6', ('bước hướng dẫn', 'guided steps')), ('4', ('vai trò', 'roles')), ('{{nimg}}', ('ảnh thật đánh số', 'numbered screenshots')), ('{{niss}}', ('tình huống xử lý', 'fixes'))],
     band1=('Mục 1–3 · Phiếu chạy thế nào, ký ở đâu', 'Sections 1–3 · How the job flows, where signing happens'),
     band2=('Mục 4–5 · 6 bước, ảnh thật có đánh số', 'Sections 4–5 · 6 steps, numbered real screenshots'),
@@ -27,14 +27,14 @@ PAGE = dict(
                (('Nét đỏ', 'Red lines'), ('Từ chối ký: mặc định kết thúc phiếu (Thất bại), hoặc nối về bước có người để Trình lại.', 'Declined: ends the job (Failed) by default, or loops to a human step to resubmit.'))],
     t_status=('2 · Trạng thái công việc và yêu cầu ký', '2 · Job and signing-request statuses'), l_status=None,
     t_ben=('3 · Lợi ích đo được', '3 · Measurable benefits'),
-    l_ben=('<b>Chắc chắn</b> = đọc từ hệ thống. <b>Mục tiêu</b> = đề xuất, cần chốt mốc gốc với Traphaco.', '<b>Certain</b> = read from the system. <b>Target</b> = proposed, baseline to agree with Traphaco.'),
+    l_ben=('<b>Chắc chắn</b> = đọc từ hệ thống. <b>Mục tiêu</b> = đề xuất, cần chốt mốc gốc với khách hàng.', '<b>Certain</b> = read from the system. <b>Target</b> = proposed, baseline to agree with the customer.'),
     t_matrix=('4 · Hành trình × Vai trò', '4 · Journey × Roles'),
     t_ai=('5 · Dùng AI trong BPM', '5 · Using AI in BPM'), l_ai=None,
     t_iss=('6 · Tra cứu tình huống phát sinh', '6 · Find a fix'),
     t_setup=('7 · Quản trị cần setup gì', '7 · What admins must set up'),
     l_setup=('Làm theo thứ tự S1 → S9 trên dịch vụ TEST “Đề nghị thanh toán có trình ký”. Dịch vụ thật “1. QT thanh toán - ký số” chỉ xem, không sửa.', 'Follow S1 → S9 on the TEST service. The real service was only viewed.'),
     checklist=('Checklist khi thêm bước trình ký vào quy trình', 'Checklist when adding signing to a flow'),
-    footer=('Base.vn × Traphaco · Ảnh chụp hệ thống thật trên tenant demo, dữ liệu TEST · 14/11/2026', 'Base.vn × Traphaco · Real screenshots on the demo tenant, TEST data · 14 Nov 2026'),
+    footer=('Base.vn · Ảnh chụp hệ thống thật trên tenant demo, dữ liệu TEST · 14/11/2026', 'Base.vn · Real screenshots on the demo tenant, TEST data · 14 Nov 2026'),
     issph=('Gõ vấn đề, vd: không có nút Trình ký, đã ký mà phiếu không chạy, từ chối…', 'Type a problem, e.g. no Trình ký button, signed but stuck, declined…'),
 )
 

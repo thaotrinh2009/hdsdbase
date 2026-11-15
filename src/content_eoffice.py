@@ -10,13 +10,13 @@ APPR = EO + '/approvals'
 
 PAGE = dict(
     app='eoffice', client='Traphaco',
-    title=('HDSD E-office · Trình ký văn bản · Traphaco', ''),
+    title=('HDSD E-office · Trình ký văn bản', ''),
     h1=('Hướng dẫn E-office · Trình ký', 'E-office guide · Signing'),
     eyebrow=('HƯỚNG DẪN SỬ DỤNG · E-OFFICE', 'USER GUIDE · E-OFFICE'),
     hero_h=('Văn bản đi, trình ký, cấp số <em>MỘT LUỒNG</em>', 'Outgoing documents, signing, numbering in <em>ONE FLOW</em>'),
     hero_lead=('8 bước, 4 vai trò: <b>chuyên viên</b> soạn và trình ký, <b>lãnh đạo</b> xem xét, phê duyệt, ký và bút phê, <b>văn thư</b> vào sổ, cấp số, ban hành. Bấm Trình ký là văn bản sang E-Sign — ký xong tự quay về.',
                '8 steps, 4 roles: <b>specialists</b> draft and submit for signing, <b>leaders</b> review, approve, sign and annotate, <b>clerks</b> register, number and issue. Trình ký sends the document to E-Sign — it comes back once signed.'),
-    hero_img='eo_tientrinh', hero_float=('Traphaco · eoffice.base.com.vn · 13/11/2026', 'Traphaco · eoffice.base.com.vn · 13 Nov 2026'),
+    hero_img='eo_tientrinh', hero_float=('eoffice.base.com.vn · 13/11/2026', 'eoffice.base.com.vn · 13 Nov 2026'),
     kpi=[('8', ('bước hướng dẫn', 'guided steps')), ('4', ('vai trò', 'roles')), ('{{nimg}}', ('ảnh thật đánh số', 'numbered screenshots')), ('{{niss}}', ('tình huống xử lý', 'fixes'))],
     band1=('Mục 1–3 · Văn bản chạy qua những bước nào, ai làm', 'Sections 1–3 · Which steps a document passes, who acts'),
     band2=('Mục 4–5 · 8 bước, ảnh thật có đánh số', 'Sections 4–5 · 8 steps, numbered real screenshots'),
@@ -30,14 +30,14 @@ PAGE = dict(
     t_status=('2 · Bước và trạng thái của văn bản đi', '2 · Steps and status of an outgoing document'),
     l_status=None,
     t_ben=('3 · Lợi ích đo được', '3 · Measurable benefits'),
-    l_ben=('<b>Chắc chắn</b> = đọc từ hệ thống. <b>Mục tiêu</b> = đề xuất, cần chốt mốc gốc với Traphaco.', '<b>Certain</b> = read from the system. <b>Target</b> = proposed, baseline to agree with Traphaco.'),
+    l_ben=('<b>Chắc chắn</b> = đọc từ hệ thống. <b>Mục tiêu</b> = đề xuất, cần chốt mốc gốc với khách hàng.', '<b>Certain</b> = read from the system. <b>Target</b> = proposed, baseline to agree with the customer.'),
     t_matrix=('4 · Hành trình × Vai trò', '4 · Journey × Roles'),
     t_ai=('5 · Dùng AI trong E-office', '5 · Using AI in E-office'), l_ai=None,
     t_iss=('6 · Tra cứu tình huống phát sinh', '6 · Find a fix'),
     t_setup=('7 · Quản trị cần setup gì', '7 · What admins must set up'),
     l_setup=('Làm theo thứ tự S1 → S12. Ảnh lấy từ dịch vụ TEST đã dựng trên tenant demo; dịch vụ thật của khách chỉ xem, không sửa.', 'Follow S1 → S12 in order. Screens from the TEST services built on the demo tenant; customer services were only viewed.'),
     checklist=('Checklist khi thêm/đổi một luồng văn bản', 'Checklist when adding/changing a document flow'),
-    footer=('Base.vn × Traphaco · Ảnh chụp hệ thống thật trên tenant demo, dữ liệu TEST · 13/11/2026', 'Base.vn × Traphaco · Real screenshots on the demo tenant, TEST data · 13 Nov 2026'),
+    footer=('Base.vn · Ảnh chụp hệ thống thật trên tenant demo, dữ liệu TEST · 13/11/2026', 'Base.vn · Real screenshots on the demo tenant, TEST data · 13 Nov 2026'),
     issph=('Gõ vấn đề, vd: lỗi mã đặt trường, chưa ký đã sang cấp số, không thấy Trình ký…', 'Type a problem, e.g. anchor error, numbered before signing, no Trình ký…'),
 )
 
@@ -308,7 +308,7 @@ CHECKLIST = [
 AI_QS = [
     ('CV', ('Kiểm tra văn bản này đã đủ thông tin để trình ký chưa, còn thiếu gì?', 'Is this document ready for signing, what is missing?')),
     ('LD', ('Tóm tắt nội dung, số tiền và căn cứ của tờ trình này trong 5 dòng.', 'Summarize content, amount and basis in 5 lines.')),
-    ('LD', ('Công văn này yêu cầu Traphaco làm gì, hạn khi nào, nên giao phòng nào?', 'What does this letter ask, by when, which department?')),
+    ('LD', ('Công văn này yêu cầu công ty làm gì, hạn khi nào, nên giao phòng nào?', 'What does this letter ask, by when, which department?')),
     ('VT', ('Tóm tắt tiến trình: ai đã xét, duyệt, ký và cấp số nào?', 'Summarize: who reviewed, approved, signed, which number?')),
     ('QT', ('Bước nào của luồng này đang làm văn bản chờ lâu nhất?', 'Which step makes documents wait longest?')),
 ]

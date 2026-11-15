@@ -22,7 +22,7 @@ page = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Hướng dẫn sử dụng Base · Traphaco · Trình ký</title>
+<title>Hướng dẫn sử dụng Base · Trình ký</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap">
@@ -45,7 +45,7 @@ iframe[hidden]{display:none}
 </head>
 <body>
 <header class="top">
-  <div class="brand">BASE.VN <i>×</i> <b>TRAPHACO</b> <span>· Hướng dẫn trình ký</span></div>
+  <div class="brand">BASE.VN <span>· Hướng dẫn trình ký</span></div>
   <nav class="tabs" role="tablist" aria-label="Chọn tài liệu">""" + ''.join(buttons) + """</nav>
 </header>
 """ + '\n'.join(frames) + """
