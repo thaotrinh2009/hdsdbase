@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng Base — Traphaco · Trình ký
+# Hướng dẫn sử dụng Base · Trình ký (E-office, BPM, E-Sign)
 
 Trang chính `index.html` có 3 tab (mở thẳng bằng `#eoffice`, `#bpm`, `#esign`):
 
@@ -14,3 +14,6 @@ Song ngữ VI/EN, ảnh chụp thật trên tenant demo (Customer Success HN), d
 1. Sửa `src/content_<app>.py` (chuỗi dạng cặp (vi, en)); ảnh gốc ở `src/raw/`, ghim số ở `src/annos_spec.py` (ghim tìm theo chữ nhờ OCR cache `src/ocr/`, chạy `python3 src/ocr.py` khi thêm ảnh mới).
 2. `python3 src/annos.py` → `python3 src/build.py content_<app>` (ghi `<app>/index.html`).
 3. `python3 build_tabs.py` gộp thành `index.html`. QA: `NODE_PATH=$(npm root -g) node src/qa.js`.
+
+## Xem online
+Bật GitHub Pages (Settings › Pages › Branch `main` / root) hoặc import repo vào Vercel; trang chính là `index.html`.
